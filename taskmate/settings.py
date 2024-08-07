@@ -148,5 +148,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CRISPY_ALLOWD_TEMPLATE_PACK = 'bootstrap5'
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
-LOGIN_REDIRECT_URL = 'todolist'
+# LOGIN_REDIRECT_URL = 'todolist'
+LOGIN_REDIRECT_URL = 'index'  # Redirect to 'index' after login
+LOGOUT_REDIRECT_URL = 'login'  # Redirect to 'login' after logout
 LOGIN_URL = "login"
